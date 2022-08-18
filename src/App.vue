@@ -30,6 +30,10 @@ export default {
   box-sizing: border-box;
  }
 
+ body {
+  background-color: #e2b167;
+ }
+
   .main-container {
   margin: 50px;
   min-height: 250px;
@@ -39,7 +43,7 @@ h1 {
   text-align: center;
   font-size: 42px;
   margin-bottom: 30px;
-   color: #1d170e;
+  color: #1d170e;
 }
 
 </style>
