@@ -1,81 +1,228 @@
 {
-    "ingredientes": {
-      "paes": [
-        {
-          "id": 1,
-          "tipo": "Italiano Branco"
-        },
-        {
-          "id": 2,
-          "tipo": "3 Queijos"
-        },
-        {
-          "id": 3,
-          "tipo": "Parmesão e Orégano"
-        },
-        {
-          "id": 4,
-          "tipo": "Integral"
-        }
-      ],
-      "carnes": [
-        {
-          "id": 1,
-          "tipo": "Maminha"
-        },
-        {
-          "id": 2,
-          "tipo": "Alcatra"
-        },
-        {
-          "id": 3,
-          "tipo": "Picanha"
-        },
-        {
-          "id": 4,
-          "tipo": "Veggie burger"
-        }
-      ],
-      "opcionais": [
-        {
-          "id": 1,
-          "tipo": "Bacon"
-        },
-        {
-          "id": 2,
-          "tipo": "Cheddar"
-        },
-        {
-          "id": 3,
-          "tipo": "Salame"
-        },
-        {
-          "id": 4,
-          "tipo": "Tomate"
-        },
-        {
-          "id": 4,
-          "tipo": "Cebola roxa"
-        },
-        {
-          "id": 4,
-          "tipo": "Pepino"
-        }
-      ]
-    },
-    "status": [
+  "ingredientes": {
+    "paes": [
       {
         "id": 1,
-        "tipo": "Solicitado"
+        "tipo": "Italiano"
       },
       {
         "id": 2,
-        "tipo": "Em produção"
+        "tipo": "Americano"
       },
       {
         "id": 3,
-        "tipo": "Finalizado"
+        "tipo": "Brioche"
+      },
+      {
+        "id": 4,
+        "tipo": "Australiano"
       }
     ],
-    "burgers": []
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Filé"
+      },
+      {
+        "id": 5,
+        "tipo": "Fraldinha"
+      },
+      {
+        "id": 6,
+        "tipo": "Contrafilé"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Catupiry"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 4,
+        "tipo": "Cebola caramelizada"
+      },
+      {
+        "id": 4,
+        "tipo": "Batata palha"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "name": "Talyta",
+      "carne": "Maminha",
+      "pao": "Italiano",
+      "opcionais": [
+        "Bacon",
+        "Catupiry"
+      ],
+      "status": "Solicitado",
+      "id": 1
+    },
+    {
+      "name": "Talyta",
+      "carne": "Maminha",
+      "pao": "Italiano",
+      "opcionais": [
+        "Bacon"
+      ],
+      "status": "Solicitado",
+      "id": 2
+    },
+    {
+      "name": "Talyta",
+      "carne": "Maminha",
+      "pao": "Italiano",
+      "opcionais": [
+        "Bacon"
+      ],
+      "status": "Solicitado",
+      "id": 3
+    },
+    {
+      "name": "Talyta",
+      "carne": "Maminha",
+      "pao": "Italiano",
+      "opcionais": [
+        "Bacon"
+      ],
+      "status": "Solicitado",
+      "id": 4
+    },
+    {
+      "name": "Talyta",
+      "carne": "",
+      "pao": "Brioche",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": 5
+    },
+    {
+      "name": "Talyta",
+      "carne": "",
+      "pao": "Americano",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": 6
+    },
+    {
+      "name": "Talyta",
+      "carne": "Filé",
+      "pao": "Americano",
+      "opcionais": [
+        "Bacon",
+        "Tomate"
+      ],
+      "status": "Solicitado",
+      "id": 7
+    },
+    {
+      "name": "Talyta",
+      "carne": "Maminha",
+      "pao": "Italiano",
+      "opcionais": [
+        "Bacon"
+      ],
+      "status": "Solicitado",
+      "id": 8
+    },
+    {
+      "name": "Apolo",
+      "carne": "Alcatra",
+      "pao": "Americano",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": 9
+    },
+    {
+      "name": "Talyta",
+      "carne": "Alcatra",
+      "pao": "Americano",
+      "opcionais": [
+        "Bacon",
+        "Catupiry"
+      ],
+      "status": "Solicitado",
+      "id": 10
+    },
+    {
+      "name": "Talyta",
+      "carne": null,
+      "pao": "Italiano",
+      "opcionais": [
+        "Bacon",
+        "Catupiry"
+      ],
+      "status": "Solicitado",
+      "id": 11
+    },
+    {
+      "name": "Talyta",
+      "carne": "Maminha",
+      "pao": "Australiano",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": 12
+    },
+    {
+      "name": "Talyta",
+      "carne": "Maminha",
+      "pao": "Americano",
+      "opcionais": [
+        "Bacon",
+        "Catupiry"
+      ],
+      "status": "Solicitado",
+      "id": 13
+    },
+    {
+      "name": "Apolo",
+      "carne": "Alcatra",
+      "pao": "Americano",
+      "opcionais": [
+        "Bacon",
+        "Batata palha"
+      ],
+      "status": "Solicitado",
+      "id": 14
+    }
+  ]
 }
